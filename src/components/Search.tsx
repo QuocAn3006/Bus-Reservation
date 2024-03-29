@@ -26,7 +26,6 @@ const Search = () => {
 	const searchDebounce = useDebounce(searchProvinces);
 	const provincesParse = JSON.stringify(provinces);
 	const user = projectAuth.currentUser;
-	console.log(user);
 	const router = useRouter();
 
 	useEffect(() => {
