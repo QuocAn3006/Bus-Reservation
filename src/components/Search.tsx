@@ -7,7 +7,6 @@ import { useDebounce } from '@/hooks/useDebounce';
 import { projectAuth, projectFireStore } from '@/firebase/clientApp';
 import SectionTickets from './SectionTickets';
 import { collection, getDocs } from 'firebase/firestore';
-import { useUser } from '@/hooks/useUser';
 import { useRouter } from 'next/navigation';
 const Search = () => {
 	const [searchProvinces, setSearchProvinces] = useState<string>('');
