@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+}
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+	border-radius: 14px;
+	border: 3px solid #ccc;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #000;
+	border-radius: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
+}
+
+.ant-tabs-nav {
+	width: 100%;
+	justify-content: space-between;
+}
+.ant-tabs-nav-list {
+	width: 100%;
+	justify-content: space-between;
+}
+.ant-tabs-tab {
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+}
