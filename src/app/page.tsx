@@ -14,6 +14,7 @@ import {
 import { projectFireStore } from '@/firebase/clientApp';
 import { Spin } from 'antd';
 import Image from 'next/image';
+import Footer from '@/components/Footer';
 
 export default function Home() {
 	const [dataUpdate, setDataUpdate] = useState<boolean>(false);
@@ -186,6 +187,8 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+
+				<Footer />
 			</>
 		);
 	}

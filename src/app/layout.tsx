@@ -30,7 +30,6 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
 					<AppContextProvider>
 						<Header />
 						{children}
-						<Footer />
 					</AppContextProvider>
 				</ConfigProvider>
 			</body>
