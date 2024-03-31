@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import AppContextProvider from '@/context/app.context';
 import Header from '@/components/Header';
 import { ConfigProvider } from 'antd';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
 					<AppContextProvider>
 						<Header />
 						{children}
+						<Footer />
 					</AppContextProvider>
 				</ConfigProvider>
 			</body>
