@@ -302,7 +302,10 @@ const Search = () => {
 					Nếu bạn gặp vấn đề vui lòng đọc thông tin bên trên để có
 					trải nghiệm tốt nhât
 				</p>
-				<p className='mb-2 font-bold'>Xin lỗi vì sự bất tiện này</p>
+
+				<p className='mb-2 font-bold'>
+					Vui lòng F5 để thực hiện lại. Xin lỗi vì sự bất tiện này
+				</p>
 			</Modal>
 			{!isFindedTicket && <div className='mb-56' />}
 		</>
